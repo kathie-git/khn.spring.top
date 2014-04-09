@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+========================================================================================================================
+pom.xml
+
+========================================================================================================================
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>khn.spring</groupId>
+		<artifactId>khn.spring.top</artifactId>
+		<version>1.0-RELEASE</version>
+	</parent>
+	
+	<artifactId>khn.spring.skin</artifactId>
+	<packaging>war</packaging>
+	
+	<name>khn Skin</name>
+	<description>Maven WAR plugin overlay to centralize the common UI elements.</description>
+	<url></url>
+	
+	<dependencies>
+		<dependency>
+			<groupId>khn.spring</groupId>
+			<artifactId>khn.spring.deps-web</artifactId>
+			<version>1.0-RELEASE</version>
+			<type>pom</type>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+</project>
